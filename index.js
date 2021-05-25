@@ -20,6 +20,7 @@ app.listen(PORT, () => {
   console.log(`Example app listening at http://localhost:${PORT}`)
 })
 */
+const cool = require('cool-ascii-faces');
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
